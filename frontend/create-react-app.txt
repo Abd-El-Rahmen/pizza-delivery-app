@@ -1,0 +1,14 @@
+1- npm create vite@latest app-name -- --template react
+2- cd app-name
+3- npm install
+4- for react-router-dom : npm install react-router-dom
+5- for tailwind : 
+  5-1- npm install -D tailwindcss postcss autoprefixer
+  5-2- npx tailwindcss init -p
+  5-3- add this "./index.html",
+  "./src/**/*.{js,ts,jsx,tsx}" to tailwind.config.js in content []
+  5-4- import in index.css : "@tailwind base;
+@tailwind components;
+@tailwind utilities;"
+6- to run the server : npm run dev
+
